@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-
-
+    
 	public float speed;
 
 	private Rigidbody rb;
-
 
 	void Start () {
 
@@ -27,5 +25,4 @@ public class PlayerController : MonoBehaviour {
 
 
 	}
-
 }
